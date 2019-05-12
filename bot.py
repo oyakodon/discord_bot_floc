@@ -29,8 +29,15 @@ async def on_message(message):
 	print("Received message: " + message.content)
 
 	if message.content.startswith(config['prefix'] + "remind"):
+		# リマインダ
 		await reminder.on_message(message)
+
+	if message.content.startswith(config['prefix'] + "help"):
+		# ヘルプ (README)
+		await message.channel.send(f"{message.author.mention} {config['readme']}")
+
 	elif message.content == "dicedice-dice":
+		# サイコロ
 		await dice.on_message(message)
 
 	if message.channel.id in config['pin_ch']:

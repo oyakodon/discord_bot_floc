@@ -31,6 +31,11 @@
   - `dicedice-dice`
   - ある数列になるとリアクションで祝ってくれる
 
+### README
+
+- `(prefix)help`でconfig['readme']の内容が表示される
+  - デフォルトはこのMarkdownへのリンク
+
 ## 使用方法
 
 1. このリポジトリをclone

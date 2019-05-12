@@ -1,6 +1,7 @@
 {
   "token" : "<YOUR_BOT_TOKEN_HERE>",
   "prefix" : "!",
+  "readme" : "https://github.com/oyakodon/discord_bot_floc/blob/master/README.md",
   "greet_ch" : [<GREETING_CHANNEL_ID(int)>],
   "pin_ch" : [<AUTO_PINNING_CHANNEL_ID(int)>]
 }
