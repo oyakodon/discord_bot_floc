@@ -1,0 +1,6 @@
+{
+  "token" : "<YOUR_BOT_TOKEN_HERE>",
+  "prefix" : "!",
+  "greet_ch" : [<GREETING_CHANNEL_ID(int)>],
+  "pin_ch" : [<AUTO_PINNING_CHANNEL_ID(int)>]
+}
